@@ -2,6 +2,8 @@
 
 This console app extracts text from the PDFs in `data/` and sends each selected document to TypeSafe AI with three typed questions:
 
+The Harry Potter-themed PDFs in `data/` are synthetic test data for evaluating the TypeSafe AI workflow. They contain original thematic commentary and summaries, not complete copyrighted books or copied book text.
+
 - Is the document thematically coherent?
 - What is its primary analytical focus?
 - How original does the commentary appear?

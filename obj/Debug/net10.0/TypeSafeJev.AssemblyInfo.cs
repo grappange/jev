@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TypeSafeJev")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64cbb1d60648ae05ce83d25fe244b46de67565fa")]
 [assembly: System.Reflection.AssemblyProductAttribute("TypeSafeJev")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TypeSafeJev")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

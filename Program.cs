@@ -46,8 +46,13 @@ foreach (var pdfFile in pdfFiles)
         var questions = new QuestionSet
         {
             new NoulQuestion("is_thematically_coherent", "Does this document present a coherent literary analysis rather than random or unrelated text?"),
+            new NoulQuestion("is_well_structured", "Does this document have a clear structure with ideas that develop in a logical order?"),
+            new NoulQuestion("has_repeated_content", "Does this document repeat the same wording or ideas across sections?"),
             new ChoiceQuestion("primary_focus", "What is the primary focus of this document?", ["character", "setting", "ethics", "relationships", "narrative structure"]),
+            new ChoiceQuestion("intended_audience", "Which audience is this document most suitable for?", ["young readers", "students", "general readers", "unclear"]),
             new ScoreQuestion("originality", "How strongly does the document appear to contain original commentary rather than reproduced source text?", ["low", "moderate", "high"]),
+            new ScoreQuestion("clarity", "How clear and easy to understand is the document's explanation?", ["unclear", "adequate", "clear", "very clear"]),
+            new ScoreQuestion("educational_value", "How useful is this document for learning about literary themes?", ["low", "moderate", "high"]),
         };
 
         var answer = await client.SystemOneAsync(text, questions);
@@ -55,15 +60,20 @@ foreach (var pdfFile in pdfFiles)
             Path.GetFileName(pdfFile),
             text.Length,
             answer.Noul("is_thematically_coherent").Probability,
+            answer.Noul("is_well_structured").Probability,
+            answer.Noul("has_repeated_content").Probability,
             answer.Choice("primary_focus").Label,
+            answer.Choice("intended_audience").Label,
             answer.Score("originality").Score,
+            answer.Score("clarity").Score,
+            answer.Score("educational_value").Score,
             null);
         results.Add(result);
-        Console.WriteLine($"OK   {result.FileName} | coherent={result.CoherentProbability:F2} | focus={result.PrimaryFocus} | originality={result.OriginalityScore:F2}");
+        Console.WriteLine($"OK   {result.FileName} | coherent={result.CoherentProbability:F2} | structured={result.StructuredProbability:F2} | repeated={result.RepeatedProbability:F2} | focus={result.PrimaryFocus} | audience={result.IntendedAudience} | originality={result.OriginalityScore:F2} | clarity={result.ClarityScore:F2} | educational={result.EducationalValueScore:F2}");
     }
     catch (Exception exception)
     {
-        var result = new DocumentResult(Path.GetFileName(pdfFile), 0, null, null, null, exception.Message);
+        var result = new DocumentResult(Path.GetFileName(pdfFile), 0, null, null, null, null, null, null, null, null, exception.Message);
         results.Add(result);
         Console.WriteLine($"FAIL {result.FileName} | {exception.Message}");
     }
@@ -96,6 +106,11 @@ sealed record DocumentResult(
     string FileName,
     int InputCharacters,
     double? CoherentProbability,
+    double? StructuredProbability,
+    double? RepeatedProbability,
     string? PrimaryFocus,
+    string? IntendedAudience,
     double? OriginalityScore,
+    double? ClarityScore,
+    double? EducationalValueScore,
     string? Error);

@@ -22,3 +22,4 @@ C:\git\jev\obj\Debug\net10.0\refint\TypeSafeJev.dll
 C:\git\jev\obj\Debug\net10.0\TypeSafeJev.pdb
 C:\git\jev\obj\Debug\net10.0\TypeSafeJev.genruntimeconfig.cache
 C:\git\jev\obj\Debug\net10.0\ref\TypeSafeJev.dll
+C:\git\jev\obj\Debug\net10.0\TypeSafeJev.sourcelink.json

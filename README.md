@@ -5,8 +5,13 @@ This console app extracts text from the PDFs in `data/` and sends each selected 
 The Harry Potter-themed PDFs in `data/` are synthetic test data for evaluating the TypeSafe AI workflow. They contain original thematic commentary and summaries, not complete copyrighted books or copied book text.
 
 - Is the document thematically coherent?
+- Is the document well structured?
+- Does it contain repeated content?
 - What is its primary analytical focus?
+- Who is the intended audience?
 - How original does the commentary appear?
+- How clear is the explanation?
+- What is its educational value?
 
 ## Run
 
@@ -38,11 +43,21 @@ flowchart LR
 	B --> C[Send text to TypeSafe AI]
 	C --> D[Typed questions]
 	D --> E[Coherence probability]
-	D --> F[Primary focus label]
-	D --> G[Originality score]
-	E --> H[typesafe-results.json]
-	F --> H
-	G --> H
+	D --> F[Structure probability]
+	D --> G[Repetition probability]
+	D --> H[Primary focus label]
+	D --> I[Intended audience label]
+	D --> J[Originality score]
+	D --> K[Clarity score]
+	D --> L[Educational value score]
+	E --> O[typesafe-results.json]
+	F --> O
+	G --> O
+	H --> O
+	I --> O
+	J --> O
+	K --> O
+	L --> O
 ```
 
 ## Score rubric
@@ -51,4 +66,5 @@ flowchart LR
 flowchart LR
 	L[0: low] --> M[1: moderate] --> H[2: high]
 	M -. weighted result .-> R[Example: 1.6 means between moderate and high]
+	C[Four-level rubrics use 0 to 3]
 ```

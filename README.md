@@ -29,3 +29,26 @@ dotnet run --project .\TypeSafeJev.csproj -- --all
 ```
 
 Use a custom number of documents with `--limit`, for example `--limit 10`. Results are written to `typesafe-results.json`.
+
+## Processing flow
+
+```mermaid
+flowchart LR
+	A[data/*.pdf] --> B[Extract PDF text]
+	B --> C[Send text to TypeSafe AI]
+	C --> D[Typed questions]
+	D --> E[Coherence probability]
+	D --> F[Primary focus label]
+	D --> G[Originality score]
+	E --> H[typesafe-results.json]
+	F --> H
+	G --> H
+```
+
+## Score rubric
+
+```mermaid
+flowchart LR
+	L[0: low] --> M[1: moderate] --> H[2: high]
+	M -. weighted result .-> R[Example: 1.6 means between moderate and high]
+```

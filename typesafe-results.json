@@ -1,0 +1,402 @@
+[
+  {
+    "FileName": "harry_potter_guide_01.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.36,
+    "PrimaryFocus": "relationships",
+    "OriginalityScore": 1.38,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_02.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.4,
+    "PrimaryFocus": "character",
+    "OriginalityScore": 1.3,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_03.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.41,
+    "PrimaryFocus": "ethics",
+    "OriginalityScore": 1.33,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_04.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.38,
+    "PrimaryFocus": "ethics",
+    "OriginalityScore": 1.26,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_05.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.37,
+    "PrimaryFocus": "character",
+    "OriginalityScore": 1.36,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_06.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.4,
+    "PrimaryFocus": "ethics",
+    "OriginalityScore": 1.21,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_07.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.36,
+    "PrimaryFocus": "ethics",
+    "OriginalityScore": 1.23,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_08.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.35,
+    "PrimaryFocus": "relationships",
+    "OriginalityScore": 1.23,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_09.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.41,
+    "PrimaryFocus": "character",
+    "OriginalityScore": 1.44,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_10.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.38,
+    "PrimaryFocus": "character",
+    "OriginalityScore": 1.4,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_11.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.41,
+    "PrimaryFocus": "narrative structure",
+    "OriginalityScore": 1.41,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_12.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.4,
+    "PrimaryFocus": "narrative structure",
+    "OriginalityScore": 1.38,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_13.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.37,
+    "PrimaryFocus": "ethics",
+    "OriginalityScore": 1.34,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_14.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.39,
+    "PrimaryFocus": "character",
+    "OriginalityScore": 1.36,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_15.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.35,
+    "PrimaryFocus": "character",
+    "OriginalityScore": 1.39,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_16.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.38,
+    "PrimaryFocus": "ethics",
+    "OriginalityScore": 1.26,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_17.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.38,
+    "PrimaryFocus": "narrative structure",
+    "OriginalityScore": 1.47,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_18.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.34,
+    "PrimaryFocus": "ethics",
+    "OriginalityScore": 1.19,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_19.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.35,
+    "PrimaryFocus": "narrative structure",
+    "OriginalityScore": 1.27,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_20.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.4,
+    "PrimaryFocus": "relationships",
+    "OriginalityScore": 1.31,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_21.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.37,
+    "PrimaryFocus": "relationships",
+    "OriginalityScore": 1.4,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_22.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.34,
+    "PrimaryFocus": "relationships",
+    "OriginalityScore": 1.23,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_23.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.36,
+    "PrimaryFocus": "character",
+    "OriginalityScore": 1.29,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_24.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.29,
+    "PrimaryFocus": "relationships",
+    "OriginalityScore": 1.22,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_25.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.34,
+    "PrimaryFocus": "narrative structure",
+    "OriginalityScore": 1.51,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_26.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.39,
+    "PrimaryFocus": "narrative structure",
+    "OriginalityScore": 1.43,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_27.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.39,
+    "PrimaryFocus": "narrative structure",
+    "OriginalityScore": 1.41,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_28.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.34,
+    "PrimaryFocus": "character",
+    "OriginalityScore": 1.44,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_29.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.33,
+    "PrimaryFocus": "narrative structure",
+    "OriginalityScore": 1.29,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_30.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.36,
+    "PrimaryFocus": "ethics",
+    "OriginalityScore": 1.33,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_31.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.33,
+    "PrimaryFocus": "character",
+    "OriginalityScore": 1.33,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_32.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.43,
+    "PrimaryFocus": "narrative structure",
+    "OriginalityScore": 1.46,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_33.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.38,
+    "PrimaryFocus": "narrative structure",
+    "OriginalityScore": 1.32,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_34.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.41,
+    "PrimaryFocus": "relationships",
+    "OriginalityScore": 1.44,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_35.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.32,
+    "PrimaryFocus": "ethics",
+    "OriginalityScore": 1.29,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_36.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.37,
+    "PrimaryFocus": "relationships",
+    "OriginalityScore": 1.34,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_37.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.32,
+    "PrimaryFocus": "narrative structure",
+    "OriginalityScore": 1.29,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_38.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.35,
+    "PrimaryFocus": "ethics",
+    "OriginalityScore": 1.28,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_39.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.32,
+    "PrimaryFocus": "relationships",
+    "OriginalityScore": 1.36,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_40.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.34,
+    "PrimaryFocus": "character",
+    "OriginalityScore": 1.37,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_41.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.37,
+    "PrimaryFocus": "character",
+    "OriginalityScore": 1.39,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_42.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.35,
+    "PrimaryFocus": "narrative structure",
+    "OriginalityScore": 1.37,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_43.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.39,
+    "PrimaryFocus": "character",
+    "OriginalityScore": 1.48,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_44.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.4,
+    "PrimaryFocus": "ethics",
+    "OriginalityScore": 1.5,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_45.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.4,
+    "PrimaryFocus": "relationships",
+    "OriginalityScore": 1.43,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_46.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.35,
+    "PrimaryFocus": "ethics",
+    "OriginalityScore": 1.4,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_47.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.34,
+    "PrimaryFocus": "setting",
+    "OriginalityScore": 1.39,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_48.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.38,
+    "PrimaryFocus": "narrative structure",
+    "OriginalityScore": 1.28,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_49.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.39,
+    "PrimaryFocus": "narrative structure",
+    "OriginalityScore": 1.34,
+    "Error": null
+  },
+  {
+    "FileName": "harry_potter_guide_50.pdf",
+    "InputCharacters": 24000,
+    "CoherentProbability": 0.36,
+    "PrimaryFocus": "narrative structure",
+    "OriginalityScore": 1.3,
+    "Error": null
+  }
+]
